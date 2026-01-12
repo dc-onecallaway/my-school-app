@@ -1,0 +1,5 @@
+# Connect Frontend to your Live Backend
+/api/* https://tutors-hub-api.onrender.com/api/:splat  200
+
+# Fix Page Refresh (React Router)
+/* /index.html  200
