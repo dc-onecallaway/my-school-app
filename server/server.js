@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(express.static("public"));
 
 mongoose
-  .connect(MONGO_URI)
+  .connect(process.env.MONGO_URI)
   .then(() => console.log("✅ MongoDB Connected"))
   .catch((err) => console.error("❌ Connection Error:", err));
 
