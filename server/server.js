@@ -1,4 +1,5 @@
 const express = require("express");
+require("dotenv").config();
 const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyParser = require("body-parser");
@@ -7,9 +8,6 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static("public"));
-
-const MONGO_URI =
-  "mongodb+srv://ashkumarchauhan3_db_user:NyaKh8lAI0nSudj1@tutorshub.yxmgl7i.mongodb.net/tutorshub?appName=TutorsHub";
 
 mongoose
   .connect(MONGO_URI)
