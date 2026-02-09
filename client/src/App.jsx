@@ -8,6 +8,7 @@ import Login from "./pages/Login";
 import AdminDashboard from "./pages/AdminDashboard";
 import StudentDashboard from "./pages/StudentDashboard";
 import LandingPage from "./pages/LandingPage"; // Import the new page
+import StudentPortal from "./pages/StudentPortal";
 
 const PrivateRoute = ({ children, role }) => {
   const user = JSON.parse(localStorage.getItem("user"));
@@ -40,6 +41,7 @@ function App() {
             </PrivateRoute>
           }
         />
+        <Route path="/portal" element={<StudentPortal />} />
       </Routes>
     </Router>
   );

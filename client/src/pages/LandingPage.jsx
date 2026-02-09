@@ -156,6 +156,15 @@ const LandingPage = () => {
               </a>
             </li>
             <li>
+              <Link
+                to="/portal"
+                className="nav-link"
+                style={{ fontWeight: "bold", color: "#ff6b6b" }}
+              >
+                <i className="fas fa-laptop-code"></i> Student Portal
+              </Link>
+            </li>
+            <li>
               {/* MERGED: Using React Router Link for SPA navigation */}
               <Link to="/login" className="btn-login">
                 <i className="fas fa-sign-in-alt"></i> Login
