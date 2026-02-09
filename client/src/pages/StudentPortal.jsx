@@ -30,7 +30,7 @@ const StudentPortal = () => {
       title: "Class 6 Foundation",
       icon: "🦄",
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdlgixv5C2zN0k4Q29TgWj5WV4NGQDZmZesqRRazGVIw-2LGQ/viewform?embedded=true",
+        "https://drive.google.com/drive/folders/1qa9W_iMNHJ1bAPi3d1tSlgBJYa13skLC?usp=drive_link",
     },
     {
       id: "c7",
@@ -38,7 +38,7 @@ const StudentPortal = () => {
       title: "Class 7 Concepts",
       icon: "🚀",
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdc...LINK.../viewform?embedded=true",
+        "https://drive.google.com/drive/folders/1ciqSywN5bjdwD6rRQS5KbuSHMSPle0SW?usp=drive_link",
     },
     {
       id: "c8",
@@ -46,7 +46,7 @@ const StudentPortal = () => {
       title: "Class 8 Brainstorm",
       icon: "💡",
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdc...LINK.../viewform?embedded=true",
+        "https://drive.google.com/drive/folders/1WphwaupHizWrQAjrBsQZcZOPZ8k-iMNc?usp=drive_link",
     },
     {
       id: "c9",
@@ -54,7 +54,7 @@ const StudentPortal = () => {
       title: "Class 9 Science & Math",
       icon: "⚛️",
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdc...LINK.../viewform?embedded=true",
+        "https://drive.google.com/drive/folders/1nCBdwpfLyqyJK6-qlL1JokAuKPGmQDCC?usp=drive_link",
     },
     {
       id: "c10",
@@ -62,7 +62,7 @@ const StudentPortal = () => {
       title: "Class 10 Board Prep",
       icon: "🏆",
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdc...LINK.../viewform?embedded=true",
+        "https://drive.google.com/drive/folders/19BLdtiA2s5wf9U-O3QshXdSECOHnz0hj?usp=drive_link",
     },
     {
       id: "c11",
@@ -70,7 +70,7 @@ const StudentPortal = () => {
       title: "Class 11 Streams",
       icon: "🧬",
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdc...LINK.../viewform?embedded=true",
+        "https://drive.google.com/drive/folders/10jFAf9fl5gUHWXMwezqlafiLX-QCW0vV?usp=drive_link",
     },
     {
       id: "c12",
@@ -78,7 +78,7 @@ const StudentPortal = () => {
       title: "Class 12 Finals",
       icon: "🎓",
       formLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSdc...LINK.../viewform?embedded=true",
+        "https://drive.google.com/drive/folders/1UTwNpSgJW4ZnwUeLa56Fb96fZdIKVYIP?usp=drive_link",
     },
   ];
 

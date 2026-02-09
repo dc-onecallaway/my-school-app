@@ -161,7 +161,7 @@ const LandingPage = () => {
                 className="nav-link"
                 style={{ fontWeight: "bold", color: "#ff6b6b" }}
               >
-                <i className="fas fa-laptop-code"></i> Student Portal
+                <i className="fas fa-laptop-code"></i> Exam Portal
               </Link>
             </li>
             <li>
