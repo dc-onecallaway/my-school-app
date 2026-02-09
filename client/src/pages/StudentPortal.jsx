@@ -29,87 +29,80 @@ const StudentPortal = () => {
       name: "Class 6 🐣",
       title: "Class 6 Foundation",
       icon: "🦄",
-      formLink:
-        "https://drive.google.com/drive/folders/1qa9W_iMNHJ1bAPi3d1tSlgBJYa13skLC?usp=drive_link",
+      formLink: "https://forms.gle/u1fVuMQpjdePb6hw8",
     },
     {
       id: "c7",
       name: "Class 7 🌱",
       title: "Class 7 Concepts",
       icon: "🚀",
-      formLink:
-        "https://drive.google.com/drive/folders/1ciqSywN5bjdwD6rRQS5KbuSHMSPle0SW?usp=drive_link",
+      formLink: "https://forms.gle/VmfwXLF52WgyzvVt7",
     },
     {
       id: "c8",
       name: "Class 8 🌿",
       title: "Class 8 Brainstorm",
       icon: "💡",
-      formLink:
-        "https://drive.google.com/drive/folders/1WphwaupHizWrQAjrBsQZcZOPZ8k-iMNc?usp=drive_link",
+      formLink: "https://forms.gle/prigjrcQEu5X3nQY8",
     },
     {
       id: "c9",
       name: "Class 9 📘",
       title: "Class 9 Science & Math",
       icon: "⚛️",
-      formLink:
-        "https://drive.google.com/drive/folders/1nCBdwpfLyqyJK6-qlL1JokAuKPGmQDCC?usp=drive_link",
+      formLink: "https://forms.gle/DncMEg1DnT9TXzt46",
     },
     {
       id: "c10",
       name: "Class 10 🔥",
       title: "Class 10 Board Prep",
       icon: "🏆",
-      formLink:
-        "https://drive.google.com/drive/folders/19BLdtiA2s5wf9U-O3QshXdSECOHnz0hj?usp=drive_link",
+      formLink: "https://forms.gle/NQrbCmqYbwMD4BrMA",
     },
     {
       id: "c11",
       name: "Class 11 🧪",
       title: "Class 11 Streams",
       icon: "🧬",
-      formLink:
-        "https://drive.google.com/drive/folders/10jFAf9fl5gUHWXMwezqlafiLX-QCW0vV?usp=drive_link",
+      formLink: "https://forms.gle/SmBd5pDRb4NeSwvC8",
     },
     {
       id: "c12",
       name: "Class 12 🎓",
       title: "Class 12 Finals",
       icon: "🎓",
-      formLink:
-        "https://drive.google.com/drive/folders/1UTwNpSgJW4ZnwUeLa56Fb96fZdIKVYIP?usp=drive_link",
+      formLink: "https://forms.gle/Vw1h7kyTPQFe88DF9",
     },
   ];
 
   const libraryLinks = [
     {
       name: "Class 6",
-      link: "https://drive.google.com/drive/u/4/folders/16A-zNuYxfNeDF8boAV4szcXzHNflEsbh",
+      link: "https://drive.google.com/drive/folders/1qa9W_iMNHJ1bAPi3d1tSlgBJYa13skLC?usp=drive_link",
     },
     {
       name: "Class 7",
-      link: "https://drive.google.com/drive/u/4/folders/1Wl6-XAO4XabKQ0dDvGDoyJSStt0n4so9",
+      link: "https://drive.google.com/drive/folders/1ciqSywN5bjdwD6rRQS5KbuSHMSPle0SW?usp=drive_link",
     },
     {
       name: "Class 8",
-      link: "https://drive.google.com/drive/u/4/folders/1ah6DOb6aDli2hNlyg4o70vB3uDO0B4Yn",
+      link: "https://drive.google.com/drive/folders/1WphwaupHizWrQAjrBsQZcZOPZ8k-iMNc?usp=drive_link",
     },
     {
       name: "Class 9",
-      link: "https://drive.google.com/drive/u/4/folders/1WIVjW4kZdU6_zj6JOMUqL6XmmJUCTkyj",
+      link: "https://drive.google.com/drive/folders/1nCBdwpfLyqyJK6-qlL1JokAuKPGmQDCC?usp=drive_link",
     },
     {
       name: "Class 10",
-      link: "https://drive.google.com/drive/u/4/folders/1xPUvzrJu5yaXPrTNhwzKXguchn_Ld8Pk",
+      link: "https://drive.google.com/drive/folders/19BLdtiA2s5wf9U-O3QshXdSECOHnz0hj?usp=drive_link",
     },
     {
       name: "Class 11",
-      link: "https://drive.google.com/drive/u/4/folders/1kJRewbfI5tRITpsnocbRPKiIHt3ajQHf",
+      link: "https://drive.google.com/drive/folders/10jFAf9fl5gUHWXMwezqlafiLX-QCW0vV?usp=drive_link",
     },
     {
       name: "Class 12",
-      link: "https://drive.google.com/drive/u/4/folders/1eAvX87ytEZYtF3Xre5WPUPWMJcc5Wqle",
+      link: "https://drive.google.com/drive/folders/1UTwNpSgJW4ZnwUeLa56Fb96fZdIKVYIP?usp=drive_link",
     },
   ];
 
