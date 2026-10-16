@@ -63,7 +63,7 @@ export default function Demo({ program, setProgram, boardMode, setBoardMode }) {
       "Offline Center Address",
       "Sarojini Nagar, Lucknow, Uttar Pradesh – 226008",
       {
-        href: "https://www.google.com/maps/search/?api=1&query=Sarojini+Nagar+Lucknow+Uttar+Pradesh+226008",
+        href: "https://share.google/mHnrJd5Wb9k26OFpO",
         label: "🗺️ Map",
         blank: true,
       },
