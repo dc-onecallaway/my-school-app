@@ -63,7 +63,7 @@ export default function Demo({ program, setProgram, boardMode, setBoardMode }) {
       "Offline Center Address",
       "Sarojini Nagar, Lucknow, Uttar Pradesh – 226008",
       {
-        href: "https://share.google/mHnrJd5Wb9k26OFpO",
+        href: "https://www.google.com/maps/search/?api=1&query=Tutors+Hub%2C+New+Housing+Society%2C+F-15%2C+Sarojini+Nagar%2C+Lucknow%2C+Uttar+Pradesh+226008",
         label: "🗺️ Map",
         blank: true,
       },
