@@ -1,50 +1,47 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
-import Login from "./pages/Login";
-import AdminDashboard from "./pages/AdminDashboard";
-import StudentDashboard from "./pages/StudentDashboard";
-import LandingPage from "./pages/LandingPage"; // Import the new page
-import StudentPortal from "./pages/StudentPortal";
+import { useState } from 'react';
+import { PROGRAMS, BOARD_MODES } from './data';
+import ScrollProgress from './components/ScrollProgress';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Marquee from './components/Marquee';
+import Orbits from './components/Orbits';
+import Founders from './components/Founders';
+import Courses from './components/Courses';
+import QuizLab from './components/QuizLab';
+import Planner from './components/Planner';
+import Schedule from './components/Schedule';
+import Demo from './components/Demo';
+import Footer from './components/Footer';
+import FloatingActions from './components/FloatingActions';
+import CallbackModal from './components/CallbackModal';
 
-const PrivateRoute = ({ children, role }) => {
-  const user = JSON.parse(localStorage.getItem("user"));
-  if (!user) return <Navigate to="/login" />; // Redirect to login if not auth
-  if (role && user.role !== role) return <Navigate to="/login" />;
-  return children;
-};
+const goDemo = () => document.getElementById('demo')?.scrollIntoView({ behavior: 'smooth' });
 
-function App() {
+export default function App() {
+  const [program, setProgram] = useState(PROGRAMS[0]);
+  const [boardMode, setBoardMode] = useState(BOARD_MODES[0]);
+  const [cbOpen, setCbOpen] = useState(false);
+
+  const selectCourse = (p) => { setProgram(p); goDemo(); };
+  const quickEnroll = (m) => { setBoardMode(m.includes('Offline') ? BOARD_MODES[0] : BOARD_MODES[2]); goDemo(); };
+  const openCb = () => setCbOpen(true);
+
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />{" "}
-        {/* Home is now Landing Page */}
-        <Route path="/login" element={<Login />} />{" "}
-        {/* Login is now at /login */}
-        <Route
-          path="/admin"
-          element={
-            <PrivateRoute role="admin">
-              <AdminDashboard />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/student"
-          element={
-            <PrivateRoute role="student">
-              <StudentDashboard />
-            </PrivateRoute>
-          }
-        />
-        <Route path="/portal" element={<StudentPortal />} />
-      </Routes>
-    </Router>
+    <div className="bg-amber-50/50 text-slate-900 font-sans antialiased pb-24 md:pb-0 selection:bg-yellow-400 selection:text-amber-950 overflow-x-hidden min-h-screen">
+      <ScrollProgress />
+      <Header openCb={openCb} quickEnroll={quickEnroll} />
+      <Hero openCb={openCb} quickEnroll={quickEnroll} />
+      <Marquee />
+      <Orbits selectCourse={selectCourse} />
+      <Founders selectCourse={selectCourse} />
+      <Courses selectCourse={selectCourse} />
+      <QuizLab />
+      <Planner />
+      <Schedule selectCourse={selectCourse} />
+      <Demo program={program} setProgram={setProgram} boardMode={boardMode} setBoardMode={setBoardMode} />
+      <Footer />
+      <FloatingActions openCb={openCb} />
+      <CallbackModal open={cbOpen} onClose={() => setCbOpen(false)} />
+    </div>
   );
 }
-
-export default App;
